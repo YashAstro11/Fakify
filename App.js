@@ -1,4 +1,4 @@
-// App.js
+// App.js - Alternative with completely hidden headers
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -17,28 +17,34 @@ export default function App() {
           initialRouteName="Home"
           screenOptions={{
             headerStyle: {
-              backgroundColor: '#4F46E5',
+              backgroundColor: '#7C3AED',
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
-              fontWeight: 'bold',
+              fontWeight: '800',
             },
           }}
         >
           <Stack.Screen 
             name="Home" 
             component={HomeScreen}
-            options={{ title: 'Certificate Maker' }}
+            options={{ 
+              headerShown: false
+            }}
           />
           <Stack.Screen 
             name="Template" 
             component={TemplateScreen}
-            options={{ title: 'Choose Template' }}
+            options={{ 
+              headerShown: false
+            }}
           />
           <Stack.Screen 
             name="Certificate" 
             component={CertificateScreen}
-            options={{ title: 'Create Certificate' }}
+            options={{ 
+              headerShown: false
+            }}
           />
         </Stack.Navigator>
       </NavigationContainer>
