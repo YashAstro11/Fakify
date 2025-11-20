@@ -1,8 +1,12 @@
+<p align="center">
+  <img src="/mnt/data/fakify.jpg" alt="Fakify Logo" width="300"/>
+</p>
+
 # 🎉 Fakify - Create Custom Certificates
 
 Fakify is a React Native app that lets you create fun, professional-looking certificates for any occasion—office achievements, personal milestones, friendships, gaming accomplishments, and more! Choose from multiple templates, customize every element, preview in real-time, and share instantly.
 
-![Fakify Banner](https://via.placeholder.com/800x400/7C3AED/FFFFFF?text=Fakify+-+Create+Amazing+Certificates)
+---
 
 ## ✨ Features
 
@@ -25,10 +29,10 @@ Fakify is a React Native app that lets you create fun, professional-looking cert
 
 ### Installation
 
-git clone https://github.com/yourusername/fakify.git
-cd fakify
-npm install
-npx expo start
+git clone https://github.com/yourusername/fakify.git  
+cd fakify  
+npm install  
+npx expo start  
 
 Open via Expo Go app → Scan QR to launch on device.
 
@@ -36,17 +40,17 @@ Open via Expo Go app → Scan QR to launch on device.
 
 ## 📁 Project Structure
 
-fakify/
-├── src/
-│   ├── screens/
-│   │   ├── HomeScreen.js
-│   │   ├── TemplateScreen.js
-│   │   └── CertificateScreen.js
-│   ├── components/
-│   │   └── CertificateSVG.js
-│   └── assets/
-├── App.js
-└── package.json
+fakify/  
+├── src/  
+│   ├── screens/  
+│   │   ├── HomeScreen.js  
+│   │   ├── TemplateScreen.js  
+│   │   └── CertificateScreen.js  
+│   ├── components/  
+│   │   └── CertificateSVG.js  
+│   └── assets/  
+├── App.js  
+└── package.json  
 
 ---
 
@@ -78,14 +82,14 @@ fakify/
 
 ### Using EAS (Recommended)
 
-npm install -g @expo/eas-cli
-eas login
-eas build:configure
-eas build --platform android --profile preview
+npm install -g @expo/eas-cli  
+eas login  
+eas build:configure  
+eas build --platform android --profile preview  
 
 ### Using Expo Classic Build
 
-npx expo build:android
+npx expo build:android  
 
 ---
 
