@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/mnt/data/fakify.jpg" alt="Fakify Logo" width="300"/>
+  <img src="/assets/fakify.jpg" alt="Fakify Logo" width="300"/>
 </p>
 
 # 🎉 Fakify - Create Custom Certificates
