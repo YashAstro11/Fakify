@@ -20,13 +20,19 @@
         "foregroundImage": "./assets/fakify.jpg",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.yaastro11.Fakify"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2f029162-be21-4d7b-978b-a5ebd1ae08f7"
+      }
+    }
   }
 }
